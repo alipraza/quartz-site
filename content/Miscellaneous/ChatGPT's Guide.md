@@ -200,7 +200,7 @@ To deploy your site online and manage version control, we'll use Git and GitHub.
 
 2. **Create a New Repository**:
    - Click the **New** button or navigate to [https://github.com/new](https://github.com/new).
-   - **Repository Name**: Choose a name, e.g., `my-quartz-site`.
+   - **Repository Name**: Choose a name, e.g., `quartz-site`.
    - **Description**: (Optional) Add a brief description.
    - **Public/Private**: Choose according to your preference.
    - **Initialize Repository**: **Do not** add a README, .gitignore, or license file.
@@ -230,10 +230,10 @@ To deploy your site online and manage version control, we'll use Git and GitHub.
 
 5. **Set Remote Origin to Your GitHub Repository**:
    ```powershell
-   git remote add origin https://github.com/your-username/my-quartz-site.git
+   git remote add origin https://github.com/your-username/quartz-site.git
    ```
 
-   - Replace `your-username` and `my-quartz-site` with your actual GitHub username and repository name.
+   - Replace `your-username` and `quartz-site` with your actual GitHub username and repository name.
 
 6. **Push to GitHub**:
    ```powershell
@@ -246,7 +246,7 @@ To deploy your site online and manage version control, we'll use Git and GitHub.
 ### Step 3: Verify on GitHub
 
 1. **Visit Your Repository**:
-   - Navigate to `https://github.com/your-username/my-quartz-site`.
+   - Navigate to `https://github.com/your-username/quartz-site`.
 
 2. **Check Files**:
    - Ensure all your files are present and correctly uploaded.
@@ -277,7 +277,7 @@ Cloudflare Pages offers fast and free hosting optimized for static sites like Qu
 
 3. **Connect GitHub Account**:
    - Authorize Cloudflare to access your GitHub repositories.
-   - Select your `my-quartz-site` repository.
+   - Select your `quartz-site` repository.
 
 4. **Configure Build Settings**:
    - **Production Branch**: `v4`
@@ -378,7 +378,7 @@ GitHub Pages allows you to host static sites directly from your GitHub repositor
 3. **Access Your Site**:
    - Once deployment is complete, your site will be available at:
      ```
-     https://your-username.github.io/my-quartz-site/
+     https://your-username.github.io/quartz-site/
      ```
    - Visit this URL to view your live site.
 
