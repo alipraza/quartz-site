@@ -1,0 +1,27 @@
+## The Operating System Model of Personal Computers
+
+Windows 10, Windows 11, macOS, Ubuntu, Android, iOS — you might have heard of names like these, and you might be using one of these on a hardware device (possibly a smartphone, laptop, or desktop computer) while reading this. Ever been curious about this, though? What *are* these? How do you even know that we can bunch them together into a single category? For all we know, “Windows 10” could be something vastly different from “Android”, especially considering we use them on completely different devices. In that case, it wouldn’t be too wise to group them together.
+
+The examples I gave above are all of a concept called “Operating System” (OS): Windows 10 and Android are examples of it. An OS is something that you require to actually *use* a modern computer, i.e., devices whose ‘brain’ only deals in 0s and 1s. Let’s talk hardware for a bit:
+- This ‘brain’ in computers is called the Central Processing Unit (CPU), which deals in ‘instructions’. Instructions are sequences of 0s and 1s that all (must) obey a specific format.
+	- To say that a CPU ‘supports’ an instruction means that the instruction adheres to the instruction format for that CPU, and the CPU contains dedicated circuitry that was designed for that instruction.
+		- By following the brain analogy, the CPU can ‘read’ any sequence of 0s and 1s, but it only **recognises** a given sequence as an “instruction” if it conforms to the instruction format *and* is part of the CPU’s ISA.
+That was a lot to take in! Feel free to give it another read, this time more slowly, and perhaps do a teeny bit of Googling to fill in the inevitable gaps in understanding.
+Oh, and the most important takeaway from all that is: an “Instruction Set Architecture” (ISA) isn’t something physical in the hardware. In fact, instructions and the instruction format are also not physical. Want more brain explosion? 0s and 1s aren’t physical either!
+
+## How I View Abstractions
+
+Before I shed some more light on what an ISA is, be very clear in your understanding that A LOT of things in computing aren’t physical. Mathematics is what forms the basis of computing, and math itself is not really something that is inherently physical in its nature. If you don’t believe me, give this a read: https://en.wikipedia.org/wiki/Presheaf_(category_theory) … it’s an example of a mathematical concept that has nothing to do with the physical world per se! That doesn’t mean it’s unimportant, quite the opposite. We humans intentionally abstract away things that we don’t want to deal with or think about very frequently.
+For example, when you want to talk to someone, will you conceptualise it in your mind using wireless communications, Radio Frequency (RF) engineering, analog and mixed signal Integrated Circuits (ICs), and all that jazz? Probably not, and instead you will think of it along the lines of: “I want to tell something to someone, so I will establish contact with the other person somehow”, which is you subconsciously applying a model of communication.
+	“something”       →   message
+	“I”                       →   sender
+	“other person”   →   receiver
+	“somehow”        →   channel
+This primitive model of communication, comprising the four components on the right side of the above mappings, is ***entirely*** an abstraction, a conceptual entity (as opposed to a physical entity whose existence our six senses can testify). You come up with this model through some thoughts, apply it to *your* situation, and then actually **do** what you want by using physical entities are available to you (e.g., fax machine, telephone, smartphone). Still, no care about all the ‘technical details’, because they are at a lower level of abstraction than you care for when doing a task like this in your daily life.
+
+So, coming back to the ISA, it is indeed an abstraction like most other things I’ve introduced in this “model of computation”, which includes operating system, central processing unit, and more (e.g., controller and memory). We can use a “model of physics” to describe what happens at a very low level of abstraction in a computer, like using quantum mechanical wavefunctions to describe how the physical state of each subatomic particle evolves in space-time, but we will ultimately remain limited by our lack of understanding of reality as a whole — physics is itself merely an imperfect, constantly changing tool we try to use to explain reality. That was a bit of a long, convoluted sentence, but you can better appreciate my point if you watch this excellent video that questions an abstraction we use everyday: https://www.youtube.com/watch?v=DqhXsEgLMJ0.
+Anyway, even if we *do* use the (currently) most ‘accurate’ model of physics to explain all the inner workings behind what happens when we use a computer, it doesn’t help us as users practically. At the end of the day, I’m not intentionally manipulating quantum states of subatomic particles like gluons, I’m not trying to make electrons fall into potential wells … instead, I’m doing stuff like clicking the left button of a computer mouse, dragging a file from a folder into the browser window, and so on. This makes it abundantly clear that the level of abstraction having operational significance here is that of computer hardware and computer software.
+
+## What is An ISA? (finally)
+
+get rickrolled boi

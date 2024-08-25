@@ -1,5 +1,3 @@
-This is your new *vault*.
+Welcome to my public-facing [Obsidian](https://obsidian.md/) Vault! This is hosted using [Quartz](https://quartz.jzhao.xyz/), [GitHub](https://github.com/) and [Cloudflare Pages](https://pages.cloudflare.com/).
 
-Make a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)!
-
-When you're ready, delete this note and make the vault your own.
+Please enjoy your stay here. 😃
