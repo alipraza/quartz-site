@@ -5,8 +5,9 @@ Please enjoy your stay here. 😃
 ---
 
 **📁 Write-ups**
-- [[a work-in-progress article about Linux, kinda]]
+- [[From quantum physics to computer program]]
 - [[The CrowdStrike Incident]]
+- [[How Your C Code Gets Compiled]]
 
 **📁 Miscellaneous**
 - [[ChatGPT's Guide]]
